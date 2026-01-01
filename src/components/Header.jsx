@@ -36,18 +36,18 @@ const Header = () => {
             </button>
 
             {/* Lg Menu */}
-            <div className="max-lg:hidden flex items-center">
+            <div className="max-lg:hidden flex items-center gap-10">
                 {/* list */}
-                <ul className="">
+                <ul className="flex gap-10">
                     {navItems.map(item => (
                     <li key={item.id} className="">
-                        <a href="#">{item.label}</a>
+                        <a href="#" className="hover:text-orange-50 transition-colors font-medium text-lg">{item.label}</a>
                     </li>
                     ))}
                 </ul>
 
                 {/* login button */}
-                <button className="max-lg:hidden">Login</button>
+                <button className="max-lg:hidden primary-btn">Login</button>
             </div>
         </div>
     </header>

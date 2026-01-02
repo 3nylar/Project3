@@ -1,7 +1,11 @@
-import React from 'react';
+import React,{useState} from 'react';
 import { RiCloseLine, RiMenuFill} from '@remixicon/react';
 import { navItems } from '../constant/data'
 const Header = () => {
+    const [isOpen, setIsopen] = useState(false);
+    const handleClick = () => {
+        setIsopen(!isOpen);
+    }
   return (
     <header className="w-full py-5">
         <div className="container flex items-center justify-between border-b border-b-white-95 pb-5">
@@ -11,9 +15,9 @@ const Header = () => {
             </a>
 
             {/* Mobile Menu Button */}
-            <nav className={`navbar`}>
+            <nav className={`navbar ${isOpen ? "active" : ""}`}>
                 {/* close menu */}
-                <button className="absolute top-8 right-8">
+                <button className="absolute top-8 right-8" onClick={handleClick}>
                     <RiCloseLine size={30} />
                 </button>
 
@@ -31,7 +35,7 @@ const Header = () => {
             </nav>
 
             {/* menu btn */}
-            <button className="lg:hidden">
+            <button className="lg:hidden" onClick={handleClick}>
                 <RiMenuFill />
             </button>
 

@@ -59,3 +59,7 @@
 .navbar {
     @apply lg:hidden fixed top-0 left-0 bg-white w-full h-screen items-center flex flex-col justify-center -translate-y-full transition-transform z-40;
 }
+
+.navbar.active {
+    @apply translate-y-0;
+}

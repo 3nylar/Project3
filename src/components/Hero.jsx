@@ -31,6 +31,11 @@ const Hero = () => {
                     <button className="">View Pricing</button>
                 </div>
 
+                {/* Clients logo */}
+                <div className="">
+                    <div></div>
+                </div>
+
             </div>
             {/* banner */}
             <figure className="">

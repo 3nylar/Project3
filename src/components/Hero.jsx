@@ -38,7 +38,7 @@ const Hero = () => {
                         {heroLogos.map((logo) => (
                             // Logo
                             <div className="" key={logo.id}>
-                                <img src={logo.img} alt="logo" />
+                                <img src={logo.img} alt="logo" width={logo.width} height={28}/>
                             </div>
                         ))}
                     </div>

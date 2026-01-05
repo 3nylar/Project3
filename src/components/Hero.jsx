@@ -1,4 +1,5 @@
 import React from 'react'
+import { heroLogos } from "../constant/data";
 
 const Hero = () => {
   return (
@@ -33,7 +34,14 @@ const Hero = () => {
 
                 {/* Clients logo */}
                 <div className="">
-                    <div></div>
+                    <div>
+                        {heroLogos.map((logo) => (
+                            // Logo
+                            <div className="" key={logo.id}>
+                                <img src={logo.img} alt="logo" />
+                            </div>
+                        ))}
+                    </div>
                 </div>
 
             </div>

@@ -48,13 +48,11 @@
     @apply text-2xl lg:text-[22px];
   }
 }
-
 @layer components {
     .primary-btn {
         @apply bg-orange-50 text-white px-8 py-4 rounded-lg font-semibold hover:bg-orange-50/90;
     }
 }
-
 /* Header */
 .navbar {
     @apply lg:hidden fixed top-0 left-0 bg-white w-full h-screen items-center flex flex-col justify-center -translate-y-full transition-transform z-40;

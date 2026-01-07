@@ -6,7 +6,7 @@ Learn from Industry Experts and Enhance Your Skills.
 
 Explore Courses
 
- View Pricing
+View Pricing
 
 Benefits
 Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.
@@ -18,7 +18,6 @@ Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id impe
 
 View All
 
-
 Our Testimonials
 
 Lorem ipsum dolor sit amet consectetur. Tempus tincidunt etiam eget elit id imperdiet et. Cras eu sit dignissim lorem nibh et. Ac cum eget habitasse in velit fringilla feugiat senectus in.
@@ -27,8 +26,6 @@ View All
 
 Read Full Story
 
-
-
 Frequently Asked Questions
 
 Still you have any questions? Contact our Team via support@skillbridge.com
@@ -36,6 +33,5 @@ Still you have any questions? Contact our Team via support@skillbridge.com
 See All FAQ’s
 
 Social Profiles
-
 
 Skillbridge. All rights reserved.
